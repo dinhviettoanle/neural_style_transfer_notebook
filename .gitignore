@@ -1,0 +1,22 @@
+# Figures
+*.psd
+*.ai
+
+# Data
+data/
+*.jpg
+*.gif
+*.png
+
+# Trained models
+models/
+!models/.gitkeep
+
+
+.ipynb_checkpoints/
+*.pyc
+*.log
+backups/
+playground.ipynb
+coco_5000*
+html/
