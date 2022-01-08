@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 from PIL import Image
 from datetime import datetime
+from base64 import b64encode
 
 
 def print_head():
@@ -352,6 +353,13 @@ def get_frame_gif(frame):
     content_image = content_image[:3,:,:]
     content_image = content_image.unsqueeze(0)
     return content_image
+
+
+
+def colab_video(video_path):
+    mp4 = open(video_path,'rb').read()
+    decoded_vid = "data:video/mp4;base64," + b64encode(mp4).decode()
+    return f"""<video width=400 controls loop autoplay><source src={decoded_vid} type="video/mp4"></video>"""
 
 
 
