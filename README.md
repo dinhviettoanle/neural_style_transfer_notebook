@@ -8,7 +8,7 @@ Algorithms in Machine Learning Notebook_
 
 ## Data
 
-If you want to run it locally (bad idea if CUDA is not compatible), all the data is provided in this repository, except the images from the COCO Dataset. To download them, run `utils.py`.
+If you want to run it locally (bad idea if CUDA is not compatible), all data is provided in this repository, except the images from the COCO Dataset. To download them, run `utils.py`.
 
 ## Directory tree
 
