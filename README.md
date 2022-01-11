@@ -2,8 +2,8 @@
 _Sciences des Données et de la Décision 2021/2022
 Algorithms in Machine Learning Notebook_
 
-> **This notebook is quite compute intensive: it might be better to run it on Google Colab.**
-> The notebook is normally self-sufficient (all data is downloaded in the first cell and images are online), so you can upload only the `.ipynb` on Colab.
+> **This notebook is quite compute intensive: it might be better to run it on Google Colab (or on Kaggle, depending on your Colab recent usage).** <br>
+> The notebook is normally self-sufficient (all data is downloaded in the first cell and images are online), so you can upload only the `.ipynb` on Colab (or Kaggle).
 > After running the first cell, you can check that the directory tree is similar to the one indicated below.
 
 ## Data
